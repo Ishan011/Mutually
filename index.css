@@ -1,0 +1,124 @@
+body {
+  font-family: "Ralway", Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.header {
+  position: relative;
+  background: url("assets/header-bg.svg");
+  background-repeat: no-repeat;
+}
+
+.blob {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  width: 33%;
+}
+
+.btn-app {
+  color: #6842ef;
+  background-color: pink;
+  padding: 16px 24px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.btn-app2 {
+  color: #eee;
+  background-color: #6842ef;
+  padding: 16px 24px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.intro-text {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 4rem;
+}
+
+.pr-color {
+  color: #6842ef;
+  font-weight: 600;
+}
+
+.first-section,
+.third-section {
+  margin-top: 5rem;
+}
+
+.second-section,
+.fourth-section {
+  position: relative;
+}
+
+.bg-second {
+  background: linear-gradient(
+    72.77deg,
+    #edeef6 11.72%,
+    rgba(237, 238, 246, 0) 98.52%
+  );
+  border-radius: 30px;
+}
+
+.bg-fourth {
+  background: hsla(51, 100%, 51%, 1);
+  border-radius: 30px;
+  padding: 5rem 0;
+}
+
+.blob2,
+.blob3 {
+  position: absolute;
+}
+
+.blob2 {
+  right: 20%;
+  top: -20%;
+  z-index: -1;
+}
+
+.blob3 {
+  left: 30%;
+  bottom: -5%;
+  z-index: 2;
+}
+
+.cta-block {
+  position: relative;
+}
+
+.cta {
+  position: absolute;
+  right: -30%;
+  bottom: -28%;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 769px) {
+  header {
+      width: 120%;
+  }
+    .cta {
+    bottom: -10%;
+    max-width: 175%;
+  }
+
+  .bg-fourth {
+    padding: 2.5rem 0;
+  }
+
+  footer {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 499px) {
+    header {
+        width: 115%;
+    }
+
+    .intro-text {
+        font-size: 40px;
+    }
+}
